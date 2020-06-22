@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_160409_story_tes_scenario" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>name</element>
+            <list_id display_value="x_160409_story_tes_scenario" element="NULL" name="x_160409_story_tes_scenario" parent="NULL" relationship="NULL" sys_domain="global" view="e7af226307111010b179f19d7c1ed06c">c45b8c3007e99010b179f19d7c1ed07f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 05:28:39</sys_created_on>
+            <sys_id>005b8c3007e99010b179f19d7c1ed080</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 05:28:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_160409_story_tes_scenario</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 05:28:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c45b8c3007e99010b179f19d7c1ed07f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_160409_story_tes_scenario</sys_name>
+            <sys_package display_value="Story Testing Scripts" source="x_160409_story_tes">f88d36a007299010b179f19d7c1ed02a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Story Testing Scripts">f88d36a007299010b179f19d7c1ed02a</sys_scope>
+            <sys_update_name>sys_ui_list_x_160409_story_tes_scenario_sys_ref_list</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 05:28:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">e7af226307111010b179f19d7c1ed06c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

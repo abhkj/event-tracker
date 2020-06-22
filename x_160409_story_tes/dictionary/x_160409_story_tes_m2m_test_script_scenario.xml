@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="M2M Test Script Scenario" max_length="40" name="x_160409_story_tes_m2m_test_script_scenario" sizeclass="2" type="collection">
+        <element attributes="encode_utf8=false" label="Scenario" max_length="32" name="scenario" reference="x_160409_story_tes_scenario" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="Test Script&#9;" max_length="32" name="test_script" reference="x_160409_story_tes_test_script" reference_floats="true" type="reference"/>
+        <index name="index">
+            <element name="scenario"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="test_script"/>
+        </index>
+    </element>
+</database>

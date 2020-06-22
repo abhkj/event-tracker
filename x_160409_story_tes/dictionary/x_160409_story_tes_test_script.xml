@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Test Script" max_length="40" name="x_160409_story_tes_test_script" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="QA Tester's Notes" max_length="1000" name="qa_tester_s_notes" type="string"/>
+        <element attributes="encode_utf8=false" label="Reviewed By" max_length="32" name="reviewed_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Reviewer's Notes" max_length="1000" name="reviewer_s_notes" type="string"/>
+        <element attributes="encode_utf8=false" label="Story" max_length="32" name="story" reference="rm_story" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="Tested By" max_length="32" name="tested_by" reference="sys_user" type="reference"/>
+        <element label="Version" max_length="40" name="version" type="integer"/>
+        <index name="index">
+            <element name="tested_by"/>
+        </index>
+        <index name="index2">
+            <element name="reviewed_by"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index4">
+            <element name="story"/>
+        </index>
+    </element>
+</database>

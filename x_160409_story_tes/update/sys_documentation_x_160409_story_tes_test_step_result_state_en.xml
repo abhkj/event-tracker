@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="result_state" label="Result State" language="en" table="x_160409_story_tes_test_step">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>result_state</element>
+            <help/>
+            <hint/>
+            <label>Result State</label>
+            <language>en</language>
+            <name>x_160409_story_tes_test_step</name>
+            <plural>Result States</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-19 00:03:50</sys_created_on>
+            <sys_id>f5f04f2407299010b179f19d7c1ed0bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Result State</sys_name>
+            <sys_package display_value="Story Testing Scripts" source="x_160409_story_tes">f88d36a007299010b179f19d7c1ed02a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Story Testing Scripts">f88d36a007299010b179f19d7c1ed02a</sys_scope>
+            <sys_update_name>sys_documentation_x_160409_story_tes_test_step_result_state_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-19 00:03:50</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

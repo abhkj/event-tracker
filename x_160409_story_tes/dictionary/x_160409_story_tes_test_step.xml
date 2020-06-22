@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Test Step" max_length="40" name="x_160409_story_tes_test_step" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Actual Result" max_length="1000" name="actual_result" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Expected Results" max_length="1000" name="expected_results" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Input Variables" max_length="1000" name="input_variables" type="string"/>
+        <element label="Number" max_length="40" name="number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Result State" max_length="40" name="result_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pass" sequence="0" value="pass"/>
+                <element inactive_on_update="false" label="Fail" sequence="10" value="fail"/>
+                <element inactive_on_update="false" label="Suspended" sequence="20" value="suspended"/>
+                <element inactive_on_update="false" label="Not Tested" sequence="30" value="not_tested"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="Test Script" max_length="32" name="test_script" reference="x_160409_story_tes_test_script" type="reference"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="test_script"/>
+        </index>
+    </element>
+</database>
